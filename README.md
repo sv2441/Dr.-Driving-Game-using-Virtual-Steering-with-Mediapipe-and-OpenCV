@@ -2,11 +2,11 @@
 
 ![](https://github.com/sv2441/Dr.-Driving-Game-using-Virtual-Steering-with-Mediapipe-and-OpenCV/blob/master/output.gif)
 
-Introduction
+## Introduction
 
 "Dr. Driving" is a popular mobile game that requires the player to drive a car through a city while obeying traffic rules and completing various challenges. In this report, we will explore how to play "Dr. Driving" game using virtual steering built with Mediapipe and OpenCV.
 
-Methodology
+## Methodology
 
 1) Load the hand tracking model: Load the hand tracking model from Mediapipe. The hand tracking model will detect the hand and its landmarks.
 
@@ -20,6 +20,8 @@ Methodology
 
 
 Here are the steps to play "Dr. Driving" game using virtual steering:
+## Download The Game
+from any Emulator According to your preference
 
 ## Installation
 
