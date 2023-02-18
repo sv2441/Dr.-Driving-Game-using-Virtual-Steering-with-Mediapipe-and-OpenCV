@@ -8,9 +8,16 @@ Introduction
 
 Methodology
 
-We will be using a webcam to capture the player's hand movements and use that to control the car in the game. The virtual steering wheel will be drawn on the hand using OpenCV, and the player's hand movements will be tracked using Mediapipe.
+1) Load the hand tracking model: Load the hand tracking model from Mediapipe. The hand tracking model will detect the hand and its landmarks.
 
-The game itself will be running on a mobile device and connected to the computer running the Python code via Wi-Fi. We will use the ADB (Android Debug Bridge) tool to send touch events to the mobile device to control the car.
+2) Load the drawing module: Load the drawing module from OpenCV. The drawing module will be used to draw the virtual steering wheel on the detected hand.
+
+3) Define the region of interest: Define the region of interest (ROI) around the detected hand. This ROI will be used to draw the virtual steering wheel on the detected hand.
+
+4) Define the steering angles: Define the steering angles for the left and right turns. These angles will be used to calculate the steering direction based on the hand landmarks.
+
+5) Calculate the steering direction: Calculate the steering direction based on the hand landmarks. You can use the position of the thumb and the index finger to calculate the direction.
+
 
 Here are the steps to play "Dr. Driving" game using virtual steering:
 
